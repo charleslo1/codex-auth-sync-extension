@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Codex Auth Sync",
+  "description": "Fetch ChatGPT session auth and save it as Codex auth.json.",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Codex Auth Sync"
+  },
+  "permissions": [
+    "nativeMessaging"
+  ],
+  "host_permissions": [
+    "https://chatgpt.com/*"
+  ]
+}

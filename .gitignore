@@ -1,0 +1,7 @@
+auth.json
+session.json
+auth.test.json
+*.backup.*
+.DS_Store
+__pycache__/
+*.pyc
