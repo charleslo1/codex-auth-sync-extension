@@ -1,5 +1,7 @@
 # Codex Auth Sync
 
+[下载最新版](https://github.com/charleslo1/codex-auth-sync-extension/releases/latest)
+
 把已经登录 ChatGPT 的 Chrome session 同步到 Codex 本地登录文件：
 
 ```text
@@ -15,7 +17,11 @@
 
 ## 从 GitHub Release 安装
 
-1. 打开项目的 GitHub Releases 页面。
+1. 打开项目的 GitHub Release 页面：
+
+```text
+https://github.com/charleslo1/codex-auth-sync-extension/releases/latest
+```
 
 2. 下载最新版本的 zip 包资产，例如：
 
