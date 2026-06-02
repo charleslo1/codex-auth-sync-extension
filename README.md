@@ -27,11 +27,7 @@ codex-auth-sync-extension-v1.0.0.zip
 
 2. 解压 zip 包到本机目录。
 
-3. 打开 Chrome 扩展管理页：
-
-```text
-chrome://extensions
-```
+3. 打开 Chrome 扩展管理页：[chrome://extensions](chrome://extensions)
 
 4. 打开右上角 `Developer mode`。
 
