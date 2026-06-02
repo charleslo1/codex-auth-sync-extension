@@ -1,7 +1,5 @@
 # Codex Auth Sync
 
-[下载最新版](https://github.com/charleslo1/codex-auth-sync-extension/releases/latest)
-
 把已经登录 ChatGPT 的 Chrome session 同步到 Codex 本地登录文件：
 
 ```text
@@ -17,40 +15,38 @@
 
 ## 从 GitHub Release 安装
 
-1. 打开项目的 GitHub Release 页面：
+1. 从 GitHub Release 下载最新版本：
 
-```text
-https://github.com/charleslo1/codex-auth-sync-extension/releases/latest
-```
+[https://github.com/charleslo1/codex-auth-sync-extension/releases/latest](https://github.com/charleslo1/codex-auth-sync-extension/releases/latest)
 
-2. 下载最新版本的 zip 包资产，例如：
+下载 zip 包资产，例如：
 
 ```text
 codex-auth-sync-extension-v1.0.0.zip
 ```
 
-3. 解压 zip 包到本机目录。
+2. 解压 zip 包到本机目录。
 
-4. 打开 Chrome 扩展管理页：
+3. 打开 Chrome 扩展管理页：
 
 ```text
 chrome://extensions
 ```
 
-5. 打开右上角 `Developer mode`。
+4. 打开右上角 `Developer mode`。
 
-6. 点击 `Load unpacked`，选择解压目录里的 `extension` 文件夹。
+5. 点击 `Load unpacked`，选择解压目录里的 `extension` 文件夹。
 
-7. 在扩展卡片里复制 Chrome 生成的扩展 ID。
+6. 在扩展卡片里复制 Chrome 生成的扩展 ID。
 
-8. 打开终端，进入解压后的项目目录，注册本机助手：
+7. 打开终端，进入解压后的项目目录，注册本机助手：
 
 ```bash
 chmod +x ./install-native-host.sh
 ./install-native-host.sh <chrome-extension-id>
 ```
 
-把 `<chrome-extension-id>` 替换为第 7 步复制的扩展 ID。
+把 `<chrome-extension-id>` 替换为第 6 步复制的扩展 ID。
 
 ## 使用插件
 
